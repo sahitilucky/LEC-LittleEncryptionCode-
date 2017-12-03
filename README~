@@ -1,0 +1,18 @@
+Teammembers:CS13B032 AMATUL MUQUEETH
+CS13B042 SPHOORTI
+CS13B042 SAHITI
+INSTRUCTIONS:
+linearapproxtable.c generates linear approximation table corresponding to the s box
+proprato.c generates differential approximation table 
+The inputs for files are  S_boxnumbers2.txt and actinp.txt which are hardcoded in corresponding .c files. 
+
+INSTRUCTION to run:
+run make
+run ./linapp   -gives linear approximation table  
+./Lineartrial to give Linear trial
+./diffapp   -gives differential approx table
+./Difftrial -gives Differential table
+./encryption <input_filename> <encrypt_filename>    -Does encryption
+./decryption <encrypt_filename> <decrypt_filename>  -Does decryption
+run  make clean to remove executable files
+
